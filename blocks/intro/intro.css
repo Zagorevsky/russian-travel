@@ -1,6 +1,28 @@
 .intro {
-  max-width: 690px;
+  width: 690px;
   height: 429px;
   padding: 0;
   margin: 92px 442px 92px 148px;
+}
+
+/* экран 1024 */
+@media screen and (max-width: 1184px) {
+  .intro {
+    margin: 92px 286px 92px 48px;
+  }
+}
+/* экран 768px */
+@media screen and (max-width: 928px) {
+  .intro {
+    width: 720px;
+    margin: 88px 24px 88px 24px;
+  }
+}
+/* экран 320px */
+@media screen and (max-width: 720px) {
+  .intro {
+    width: 288px;
+    height: 754px;
+    margin: 92px 442px 92px 148px;
+  }
 }

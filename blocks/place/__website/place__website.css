@@ -1,9 +1,5 @@
 .place__website {
   display: flex;
-  align-items: flex-end;
-  color: #FFFFFF;
-}
-
-.place__website:hover {
-  opacity: 0.8;
+  flex-direction: column;
+  align-self: flex-end;
 }

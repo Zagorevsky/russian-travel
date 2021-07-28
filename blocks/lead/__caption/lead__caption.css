@@ -9,3 +9,15 @@
   text-transform: uppercase;
   width: 984px;
 }
+
+@media screen and (max-width: 1184px) {
+  .lead__caption {
+    max-width: 928px;
+  }
+}
+
+@media screen and (max-width: 928px) {
+  .lead__caption {
+    max-width: 100%;
+  }
+}
