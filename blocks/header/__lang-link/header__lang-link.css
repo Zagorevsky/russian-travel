@@ -1,0 +1,9 @@
+.header__lang-link {
+  padding: 0;
+  margin: 0;
+  font-size: 24px;
+  line-height: 28px;
+  list-style-type: none;
+  color: #FFFFFF;
+  text-decoration: none;
+}

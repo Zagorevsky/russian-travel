@@ -1,0 +1,10 @@
+.cover__overlay {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  width: 1184px;
+  height: 740px;
+  color: #ffff;
+  text-decoration: none;
+}
