@@ -2,7 +2,7 @@
   display: grid;
   width: 1184px;
   height: 671px;
-  grid-template-columns: repeat(4, 1fr); 
+  grid-template-columns: repeat(4, 1fr);
   grid-template-rows: repeat(3, 1fr);
   list-style-type: none;
   margin: 0 auto;
@@ -15,7 +15,7 @@
   .photo-grid {
     width:928px;
     height: 942px;
-    grid-template-columns: repeat(3, 1fr); 
+    grid-template-columns: repeat(3, 1fr);
     grid-template-rows: repeat(4, 1fr);
     gap: 16px;
   }
@@ -25,7 +25,7 @@
   .photo-grid {
     width:720px;
     height: 1664px;
-    grid-template-columns: repeat(2, 1fr); 
+    grid-template-columns: repeat(2, 1fr);
     grid-template-rows: repeat(6, 1fr);
   }
 }
