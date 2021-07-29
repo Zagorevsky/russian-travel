@@ -5,7 +5,7 @@
     width: 1184px;
     height: 740px;
     position: relative;
-    margin: auto;
+    margin: 0 auto;
 }
 
 .cover__background::before {

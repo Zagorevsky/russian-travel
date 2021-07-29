@@ -7,3 +7,12 @@
   font-size: 16px;
   line-height: 18px;
 }
+
+/* экран 320px */
+@media screen and (max-width: 720px) {
+  .footer-menu {
+    flex-direction: column;
+    height: 248px;
+    width: 288px;
+  }
+}

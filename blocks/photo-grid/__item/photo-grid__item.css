@@ -22,9 +22,7 @@
 /* экран 320px */
 @media screen and (max-width: 720px) {
   .photo-grid__item {
-    width:288px;
+    width: 288px;
     height: 216px;
-    justify-content: center;
-    margin: 0 auto 0 auto;
   }
 }

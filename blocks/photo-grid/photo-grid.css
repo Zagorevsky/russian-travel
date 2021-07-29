@@ -32,9 +32,9 @@
 /* экран 320px */
 @media screen and (max-width: 720px) {
   .photo-grid {
-    width:720px;
+    width: 288px;
     height: 2724px;
     row-gap: 12px;
-    grid-template-columns: 1fr;
+    grid-template-columns: 288px;
   }
 }

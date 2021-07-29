@@ -1,8 +1,9 @@
 .lead__image {
-  margin: 0 auto;
+  margin: 0;
   padding: 0;
   width: 984px;
   height: 615px;
+  justify-content: center;
 }
 
 /* экран 1024 */

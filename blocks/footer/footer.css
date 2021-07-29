@@ -2,6 +2,27 @@
   margin: 0 auto 24px auto;
   display: flex;
   justify-content: space-between;
-  max-width: 1184px;
+  width: 1184px;
   height: 18px;
+}
+/* экран 1024 */
+@media screen and (max-width: 1184px) {
+  .footer {
+    width: 928px;
+  }
+}
+/* экран 768px */
+@media screen and (max-width: 928px) {
+  .footer {
+    width: 720px;
+  }
+}
+/* экран 320px */
+@media screen and (max-width: 720px) {
+  .footer {
+    width: 304px;
+    height: 310px;
+    flex-direction: column;
+    margin-left: 0 auto;
+  }
 }
