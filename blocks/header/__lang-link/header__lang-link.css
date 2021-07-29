@@ -7,6 +7,12 @@
   color: #FFFFFF;
   text-decoration: none;
 }
+
+.header__lang-link:hover {
+  opacity: 0.8;
+  cursor: pointer;
+}
+
 /* экран 320px */
 @media screen and (max-width: 720px) {
   .header__logo {

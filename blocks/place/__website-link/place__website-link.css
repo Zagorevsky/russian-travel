@@ -8,5 +8,6 @@
 
 .place__website-link:hover {
     opacity: 0.8;
+    cursor: pointer;
   }
   
