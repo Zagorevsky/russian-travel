@@ -2,3 +2,25 @@
   width: 460px;
   height: 460px;
 }
+
+/* экран 1024 */
+@media screen and (max-width: 1184px) {
+  .place__image {
+    width: 440px;
+    height: 440px;
+  }
+}
+/* экран 768px */
+@media screen and (max-width: 928px) {
+  .place__image {
+    width: 340px;
+    height: 340px;
+  }
+}
+/* экран 320px */
+@media screen and (max-width: 720px) {
+  .place__image {
+    width: 320px;
+    height: 320px;
+  }
+}

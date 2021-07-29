@@ -12,12 +12,21 @@
 
 @media screen and (max-width: 1184px) {
   .lead__caption {
-    max-width: 928px;
+    width: 928px;
   }
 }
 
 @media screen and (max-width: 928px) {
   .lead__caption {
-    max-width: 100%;
+    width: 768px;
+    padding-left: 24px;
+  }
+}
+
+/* экран 320px */
+@media screen and (max-width: 720px) {
+  .lead__caption {
+    width: 320px;
+    padding-left: 18px;
   }
 }

@@ -7,3 +7,15 @@
   height: 66px;
   text-align: center;
 }
+
+/* экран 320px */
+@media screen and (max-width: 720px) {
+  .cover__subtitle {
+    margin: 16px auto auto auto;
+    font-size: 14px;
+    line-height: 16px;
+    width: 288px;
+    height: 48px;
+  }
+}
+

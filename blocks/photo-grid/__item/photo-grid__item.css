@@ -1,6 +1,30 @@
 .photo-grid__item {
-  max-width: 284px;
-  max-height: 213px;
+  width: 284px;
+  height: 213px;
   padding: 0;
   margin: 0;
+}
+
+/* экран 1024 */
+@media screen and (max-width: 1184px) {
+  .photo-grid__item {
+    width:300px;
+    height: 225px;
+  }
+}
+/* экран 768px */
+@media screen and (max-width: 928px) {
+  .photo-grid__item {
+    width:352px;
+    height: 264px;
+  }
+}
+/* экран 320px */
+@media screen and (max-width: 720px) {
+  .photo-grid__item {
+    width:288px;
+    height: 216px;
+    justify-content: center;
+    margin: 0 auto 0 auto;
+  }
 }

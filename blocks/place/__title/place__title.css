@@ -6,3 +6,20 @@
   text-align: left;
   font-family: 'Inter-Black';
 }
+
+/* экран 768px */
+@media screen and (max-width: 928px) {
+  .place__title {
+    font-size: 42px;
+    line-height: 46px;
+    font-family: 'Inter';
+  }
+}
+/* экран 320px */
+@media screen and (max-width: 720px) {
+  .place__title {
+    font-size: 32px;
+    line-height: 35px;
+    font-family: 'Inter';
+  }
+}
