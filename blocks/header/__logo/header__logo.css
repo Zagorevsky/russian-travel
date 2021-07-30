@@ -10,5 +10,7 @@
     .header__logo {
       height: 42px;
       width: 142px;
+      background-size: 142px 42px;
     }
   }
+  
