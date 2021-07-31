@@ -1,0 +1,18 @@
+.footer-menu {
+  display: flex;
+  justify-content: space-between;
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  font-size: 16px;
+  line-height: 18px;
+}
+
+/* экран 320px */
+@media screen and (max-width: 720px) {
+  .footer-menu {
+    flex-direction: column;
+    height: 248px;
+    width: 288px;
+  }
+}

@@ -1,0 +1,29 @@
+.lead__image {
+  margin: 0;
+  padding: 0;
+  width: 984px;
+  height: 615px;
+  justify-content: center;
+}
+
+/* экран 1024 */
+@media screen and (max-width: 1184px) {
+  .lead__image {
+    width: 928px;
+    height: 580px;
+  }
+}
+/* экран 768px */
+@media screen and (max-width: 928px) {
+  .lead__image {
+    width: 768px;
+    height: 480px;
+  }
+}
+/* экран 320px */
+@media screen and (max-width: 720px) {
+  .lead__image {
+    width: 320px;
+    height: 200px;
+  }
+}

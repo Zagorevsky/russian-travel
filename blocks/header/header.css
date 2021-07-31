@@ -1,0 +1,28 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  width: 1184px;
+  height: 52px;
+  padding: 0;
+  margin: 28px auto 56px auto;
+}
+/* экран 1024 */
+@media screen and (max-width: 1184px) {
+  .header {
+    width: 928px;
+    margin-bottom: 48px;
+  }
+}
+/* экран 768px */
+@media screen and (max-width: 928px) {
+  .header {
+    width: 720px;
+  }
+}
+/* экран 320px */
+@media screen and (max-width: 720px) {
+  .header {
+    width: 288px;
+    height: 42px;
+  }
+}
