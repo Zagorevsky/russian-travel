@@ -2,7 +2,7 @@
     background-image: url(../../../images/cover-trains.jpg);
     background-repeat: no-repeat;
     background-size: 1184px 740px;
-    width: 1184px;
+    max-width: 1184px;
     height: 740px;
     position: relative;
     margin: 0 auto;
@@ -25,10 +25,10 @@
   }
 
 /* экран 1024 */
-@media screen and (max-width: 1184px) {
+@media screen and (max-width: 1190px) {
   .cover__background {
     background-size: 1024px 640px;
-    width: 1024px;
+    max-width: 1024px;
     height: 640px;
   }
 }
@@ -36,7 +36,7 @@
 @media screen and (max-width: 928px) {
   .cover__background {
     background-size: 768px 480px;
-    width: 768px;
+    max-width: 768px;
     height: 480px;
   }
 }
@@ -44,7 +44,7 @@
 @media screen and (max-width: 720px) {
   .cover__background {
     background-size: 320px 200px;
-    width: 320px;
+    max-width: 320px;
     height: 200px;
   }
 }
