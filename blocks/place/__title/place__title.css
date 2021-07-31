@@ -4,7 +4,8 @@
   font-size: 72px;
   line-height: 76px;
   text-align: left;
-  font-family: 'Inter-Black', Arial, sans-serif;
+  font-family: 'Inter', Arial, sans-serif;
+  font-weight: 900;
 }
 
 /* экран 768px */
@@ -12,7 +13,6 @@
   .place__title {
     font-size: 42px;
     line-height: 46px;
-    font-family: 'Inter', Arial, sans-serif;
   }
 }
 /* экран 320px */

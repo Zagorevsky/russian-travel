@@ -4,7 +4,8 @@
   font-size: 54px;
   line-height: 58px;
   text-align: left;
-  font-family: 'Inter-Black', Arial, sans-serif;
+  font-family: 'Inter', Arial, sans-serif;
+  font-weight: 900;
 }
 
 /* экран 320px */

@@ -6,7 +6,8 @@
   width: 560px;
   height: 152px;
   text-align: center;
-  font-family: 'Inter-Black', Arial, sans-serif;
+  font-family: 'Inter', Arial, sans-serif;
+  font-weight: 900;
 }
 
 /* экран 320px */
@@ -17,6 +18,5 @@
     line-height: 35px;
     width: 288px;
     height: 70px;
-    font-family: 'Inter', Arial, sans-serif;
   }
 }
