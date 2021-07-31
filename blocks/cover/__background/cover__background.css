@@ -28,7 +28,7 @@
 @media screen and (max-width: 1184px) {
   .cover__background {
     background-size: 1024px 640px;
-    width: 1024px;
+    max-width: 1024px;
     height: 640px;
   }
 }
@@ -36,7 +36,7 @@
 @media screen and (max-width: 928px) {
   .cover__background {
     background-size: 768px 480px;
-    width: 768px;
+    max-width: 768px;
     height: 480px;
   }
 }

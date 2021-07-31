@@ -1,8 +1,13 @@
 # Проект: Путешествие по России
 
-### Обзор
-* Интро
+### Технологии и программы
+
+* CSS
+* HTML
+* Grid
+* Flex
 * Figma
-* Картинки
+* Git
+* 4 экрана (320, 768, 1024, 1280)
 
 https://zagorevsky.github.io/russian-travel/index.html
