@@ -1,4 +1,4 @@
-.cover__background {
+.cover_background {
     background-image: url(../../../images/cover-trains.jpg);
     background-repeat: no-repeat;
     background-size: 1184px 740px;
@@ -7,7 +7,7 @@
     position: relative;
 }
 
-.cover__background::before {
+.cover_background::before {
     content:"";
     display: block;
     height: 100%;
@@ -19,13 +19,13 @@
     opacity: 0.3;
   }
   
-  .cover__background:hover::before {
+  .cover_background:hover::before {
     opacity: 0.8;
   }
 
 /* экран 1024 */
 @media screen and (max-width: 1184px) {
-  .cover__background {
+  .cover_background {
     background-size: 1024px 640px;
     max-width: 1024px;
     max-height: 640px;
@@ -33,7 +33,7 @@
 }
 /* экран 768px */
 @media screen and (max-width: 928px) {
-  .cover__background {
+  .cover_background {
     background-size: 768px 480px;
     max-width: 768px;
     max-height: 480px;
@@ -41,7 +41,7 @@
 }
 /* экран 320px */
 @media screen and (max-width: 720px) {
-  .cover__background {
+  .cover_background {
     background-size: 320px 200px;
     width: 320px;
     min-height: 200px;
