@@ -4,7 +4,7 @@
   grid-template-columns: repeat(4, 1fr);
   grid-template-rows: repeat(3, 1fr);
   list-style-type: none;
-  margin: 0 auto;
+  margin: 0 auto 92px auto;
   padding: 0;
   gap: 16px;
 }
@@ -24,6 +24,7 @@
     width:720px;
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: repeat(6, 1fr);
+    margin-bottom: 88px;
   }
 }
 /* экран 320px */
@@ -32,5 +33,6 @@
     width: 288px;
     row-gap: 12px;
     grid-template-columns: 288px;
+    margin-bottom: 64px;
   }
 }
