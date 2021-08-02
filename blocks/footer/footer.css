@@ -1,9 +1,9 @@
 .footer {
   margin: 0 0 24px 0;
+  padding: 0;
   display: flex;
   justify-content: space-between;
   width: 1184px;
-  height: 18px;
 }
 /* экран 1024 */
 @media screen and (max-width: 1184px) {
@@ -20,8 +20,7 @@
 /* экран 320px */
 @media screen and (max-width: 720px) {
   .footer {
-    width: 304px;
-    height: 310px;
+    width: 288px;
     flex-direction: column;
     margin-left: 0 auto;
   }

@@ -3,9 +3,8 @@
     background-repeat: no-repeat;
     background-size: 1184px 740px;
     width: 1184px;
-    height: 740px;
+    max-height: 740px;
     position: relative;
-    margin: 0 auto;
 }
 
 .cover__background::before {
@@ -29,7 +28,7 @@
   .cover__background {
     background-size: 1024px 640px;
     max-width: 1024px;
-    height: 640px;
+    max-height: 640px;
   }
 }
 /* экран 768px */
@@ -37,7 +36,7 @@
   .cover__background {
     background-size: 768px 480px;
     max-width: 768px;
-    height: 480px;
+    max-height: 480px;
   }
 }
 /* экран 320px */
@@ -45,6 +44,6 @@
   .cover__background {
     background-size: 320px 200px;
     width: 320px;
-    height: 200px;
+    min-height: 200px;
   }
 }

@@ -2,6 +2,7 @@
   padding: 0;
   margin: 0 18px 0 0;
   color: #ffff;
+  text-decoration: none;
 }
 
 .footer-menu__link:hover {
