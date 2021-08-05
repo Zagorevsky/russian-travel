@@ -7,19 +7,19 @@
   letter-spacing: 1.5px;
   text-align: left;
   text-transform: uppercase;
-  width: 984px;
+  max-width: 984px;
 }
 
 @media screen and (max-width: 1184px) {
   .lead__caption {
-    width: 928px;
+    max-width: 928px;
   }
 }
 
 @media screen and (max-width: 928px) {
   .lead__caption {
-    width: 744px;
-    padding-left: 24px;
+    width: calc(100% - 24px);
+    margin-left: 24px;
   }
 }
 
