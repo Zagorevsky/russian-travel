@@ -7,12 +7,12 @@
   letter-spacing: 1.5px;
   text-align: left;
   text-transform: uppercase;
-  max-width: 984px;
+  width: 984px;
 }
 
 @media screen and (max-width: 1184px) {
   .lead__caption {
-    max-width: 928px;
+    width: 928px;
   }
 }
 
@@ -27,6 +27,6 @@
 @media screen and (max-width: 720px) {
   .lead__caption {
     width: 302px;
-    padding-left: 18px;
+    margin-left: 18px;
   }
 }
